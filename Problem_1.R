@@ -8,6 +8,8 @@ y <- c(1, 4)
 # This code relies on the order of the vector
 x-y
 
+# True. But the question referred as to what happens when x and y have different lengths.
+
 # d)
 s <- c(x, y)
 
