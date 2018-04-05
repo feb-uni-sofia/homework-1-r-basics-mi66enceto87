@@ -1,0 +1,79 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> lintr::lint("Problem_2.R")
+Problem_2.R:1:2: style: Commented code should be removed.
+## NOTE: always leave space before and after <-, -, +, *, /. Leave a blank after commas. Leave blanks around 
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Problem_2.R:2:2: style: Commented code should be removed.
+## <, >, ==, <=, =>, etc.
+ ^~~~~~~~~~~~~~~~~~~~~~~~
+Problem_2.R:5:2: style: Commented code should be removed.
+## GOOTD: data.frame(x, y)
+ ^~~~~~~~~~~~~~~~~~~~~~~~~
+Problem_2.R:12:5: style: Put spaces around all infix operators.
+xmax-xmin
+   ~^~
+Problem_2.R:37:3: style: Variable and function names should be all lowercase.
+  xminFahrenheit <- (9/5)*xmin + 32
+  ^~~~~~~~~~~~~~
+Problem_2.R:37:23: style: Put spaces around all infix operators.
+  xminFahrenheit <- (9/5)*xmin + 32
+                     ~^~
+Problem_2.R:37:26: style: Put spaces around all infix operators.
+  xminFahrenheit <- (9/5)*xmin + 32
+                        ~^~
+Problem_2.R:38:3: style: Variable and function names should be all lowercase.
+  xmaxFahrenheit <- (9/5)*xmax + 32
+  ^~~~~~~~~~~~~~
+Problem_2.R:38:23: style: Put spaces around all infix operators.
+  xmaxFahrenheit <- (9/5)*xmax + 32
+                     ~^~
+Problem_2.R:38:26: style: Put spaces around all infix operators.
+  xmaxFahrenheit <- (9/5)*xmax + 32
+                        ~^~
+Problem_2.R:51:5: style: Put spaces around all infix operators.
+xmax*9/5 + 32
+   ~^~
+Problem_2.R:51:7: style: Put spaces around all infix operators.
+xmax*9/5 + 32
+     ~^~
+Problem_2.R:59:15: style: Place a space before left parenthesis, except in a function call.
+temperatures[-(6:7), c('xminFahrenheit', 'xmaxFahrenheit')]
+              ^
+Problem_2.R:59:24: style: Only use double-quotes.
+temperatures[-(6:7), c('xminFahrenheit', 'xmaxFahrenheit')]
+                       ^~~~~~~~~~~~~~~~
+Problem_2.R:59:42: style: Only use double-quotes.
+temperatures[-(6:7), c('xminFahrenheit', 'xmaxFahrenheit')]
+                                         ^~~~~~~~~~~~~~~~
+Problem_2.R:60:1: style: Trailing blank lines are superfluous.
+
+^
+Problem_2.R:61:1: style: Trailing blank lines are superfluous.
+
+^
+Problem_2.R:62:1: style: Trailing blank lines are superfluous.
+
+^
+Problem_2.R:63:1: style: Trailing blank lines are superfluous.
+
+^
+> 
+> 
